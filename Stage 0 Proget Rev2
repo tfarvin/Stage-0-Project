@@ -1,0 +1,60 @@
+<head>
+<title>Tony Farvin's Notes for Unit 1'</title>
+</head>
+<b>Basic of the web:</b>
+<p>The web: Collection of HTML documents<br>
+  HTML: Main document of the web<br>
+  URLs : Links to connect HTML documents<br>
+  HTTPs: Protocal that unite the web
+</p><br>
+<b>Major pieces of the web:</b>
+<p>1) your computer<br>
+2) The internet<br>
+3) Servers<br></p><br>
+<b>HTML: Heart of the web</b>
+<p>HTML is made up of : <br>
+  1)  The content, i.e.  what you see<br>
+  2)  Mark Up, i.e. What it looks like<br>
+  3)  Refrences to other documents: i.e. Images & Video<br>
+  4)  Links
+</p><br>
+<p>
+<em> Markups are tags:</em> with following format<br>
+  &ltName&gt Contents &lt/Name&gt<br>
+  &ltName&gt is the begining tag<br>
+  &lt/Name&gt is the ending tag
+  <br>
+  The whole thing together is an <b>'Element'.</b>
+</p>
+<b>Type of tags:</b><br>
+1) <em>Bold Tag:</em> &lt b > Content &lt /b >
+<br>
+2) <em>Italic Tag:</em> &lt em > Content &lt /em ><br>
+3)<em> Attributes Tag:</em> &lt Tag &nbsp ATTR="value" > Contents &lt /Tag &gt<br>
+4) <em>Anchor Tags:</em> {Are good for making links}<br>
+Format: &lt a &nbsp href=&nbsp "www.Udacity.com" >&nbsp My Favorite &lt /a ><br>
+creates the link for Udacity.com 
+<a
+href= "https://www.Udacity.com">My Favorite</a><br>
+
+Note: <b>href </b>is an attribute name<br>
+
+5) <em>Image Tages:</em> {Are good for bringing in images from different sources}
+<br>
+Format: &lt img &nbsp Src&nbsp =&nbsp "URL" &nbsp alt =&nbsp "text" ><br>
+Note: Images don't have a closing tag. Alao "alt" is required in cased the source link is broken.<br>
+6) <em>White space or Break tag:</em> 
+{Are used for breaking a line and in a paragraph}<br>
+Format: &lt br > which is an inline tag.<br>
+7) <em>Paragraph tag:</em> Creats an imaginary block which has begining and ending point.
+<br>
+Format: &lt P > Contents &lt /P >.<br><br>
+
+8) <em>Container Elements:</em> Are elements that do nothing except holding stuff inside of them.<br>
+
+Ex: &lt Span > text &lt /Span> Or &lt div> text &lt /div><br>
+<br>
+
+<b>Computers only output your input</b><br>
+Computers are just machies for doing what we tell them and they do it fast. So,<br>
+if you input carbage, it will spit out carbage without thinking about it.
